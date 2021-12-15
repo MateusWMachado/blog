@@ -1,0 +1,2 @@
+INSERT INTO Topic (id, title, text, data) VALUES (1, 'Spring Boot BLOG', 'Meu primeiro post', '2021-12-15')
+INSERT INTO Topic (id, title, text, data) VALUES (2, 'Teste Segundo POST', 'Meu segundo post', '2021-12-15')
