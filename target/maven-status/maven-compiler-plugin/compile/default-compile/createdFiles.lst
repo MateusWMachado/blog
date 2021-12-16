@@ -1,0 +1,14 @@
+com\mateuswmachado\blog\kafka\producer\TopicProducer.class
+com\mateuswmachado\blog\controller\BlogController.class
+com\mateuswmachado\blog\handler\TopicHandler.class
+com\mateuswmachado\blog\BlogApplication.class
+com\mateuswmachado\blog\service\BlogServiceImpl.class
+com\mateuswmachado\blog\exception\PersonNotFoundException.class
+com\mateuswmachado\blog\repository\BlogRepository.class
+com\mateuswmachado\blog\handler\ResponseDTO.class
+com\mateuswmachado\blog\service\BlogService.class
+com\mateuswmachado\blog\configuration\KafkaProducerConfig.class
+com\mateuswmachado\blog\dto\TopicDTO.class
+com\mateuswmachado\blog\configuration\ModelMapperConfig.class
+com\mateuswmachado\blog\configuration\SwaggerConfig.class
+com\mateuswmachado\blog\model\Topic.class

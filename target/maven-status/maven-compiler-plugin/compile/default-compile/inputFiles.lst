@@ -1,0 +1,15 @@
+C:\Users\mateus.machado\Desktop\Estudo\blog\src\main\java\com\mateuswmachado\blog\configuration\SwaggerConfig.java
+C:\Users\mateus.machado\Desktop\Estudo\blog\src\main\java\com\mateuswmachado\blog\repository\BlogRepository.java
+C:\Users\mateus.machado\Desktop\Estudo\blog\src\main\java\com\mateuswmachado\blog\model\Topic.java
+C:\Users\mateus.machado\Desktop\Estudo\blog\src\main\java\com\mateuswmachado\blog\configuration\Security.java
+C:\Users\mateus.machado\Desktop\Estudo\blog\src\main\java\com\mateuswmachado\blog\service\BlogService.java
+C:\Users\mateus.machado\Desktop\Estudo\blog\src\main\java\com\mateuswmachado\blog\service\BlogServiceImpl.java
+C:\Users\mateus.machado\Desktop\Estudo\blog\src\main\java\com\mateuswmachado\blog\handler\ResponseDTO.java
+C:\Users\mateus.machado\Desktop\Estudo\blog\src\main\java\com\mateuswmachado\blog\kafka\producer\TopicProducer.java
+C:\Users\mateus.machado\Desktop\Estudo\blog\src\main\java\com\mateuswmachado\blog\exception\PersonNotFoundException.java
+C:\Users\mateus.machado\Desktop\Estudo\blog\src\main\java\com\mateuswmachado\blog\controller\BlogController.java
+C:\Users\mateus.machado\Desktop\Estudo\blog\src\main\java\com\mateuswmachado\blog\handler\TopicHandler.java
+C:\Users\mateus.machado\Desktop\Estudo\blog\src\main\java\com\mateuswmachado\blog\configuration\ModelMapperConfig.java
+C:\Users\mateus.machado\Desktop\Estudo\blog\src\main\java\com\mateuswmachado\blog\BlogApplication.java
+C:\Users\mateus.machado\Desktop\Estudo\blog\src\main\java\com\mateuswmachado\blog\dto\TopicDTO.java
+C:\Users\mateus.machado\Desktop\Estudo\blog\src\main\java\com\mateuswmachado\blog\configuration\KafkaProducerConfig.java

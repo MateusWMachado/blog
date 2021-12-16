@@ -1,6 +1,7 @@
 package com.mateuswmachado.blog.model;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
+import com.mateuswmachado.blog.model.enums.Category;
 import lombok.Data;
 
 import javax.persistence.*;
@@ -23,6 +24,10 @@ public class Topic {
     @Lob
     @NotBlank(message = "Campo não pode estar em branco")
     private String text;
+
+    @Column(name = "category")
+    @Enumerated(EnumType.STRING)
+    private Category category;
 
     @Column(name = "data")
     @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "dd-MM-yyyy")

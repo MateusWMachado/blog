@@ -2,6 +2,7 @@ package com.mateuswmachado.blog.service;
 
 import com.mateuswmachado.blog.dto.TopicDTO;
 import com.mateuswmachado.blog.exception.PersonNotFoundException;
+import com.mateuswmachado.blog.kafka.producer.TopicProducer;
 import com.mateuswmachado.blog.model.Topic;
 import com.mateuswmachado.blog.repository.BlogRepository;
 import lombok.AllArgsConstructor;
@@ -23,6 +24,7 @@ public class BlogServiceImpl implements BlogService{
 
     private BlogRepository repository;
     private ModelMapper mapper;
+    private TopicProducer topicProducer;
 
     @Override
     public Page<TopicDTO> listAllTopics(Pageable pageable) {
@@ -39,6 +41,7 @@ public class BlogServiceImpl implements BlogService{
     @Override
     public ResponseEntity<String> saveTopic(Topic topic, UriComponentsBuilder uriBuilder) {
         Topic savedTopic = repository.save(topic);
+        topicProducer.send(mapper.map(topic, TopicDTO.class));
         URI uri = uriBuilder.path("/v1/{id}").buildAndExpand(savedTopic.getId()).toUri();
         return ResponseEntity.created(uri).body("Topic with id "+ savedTopic.getId()+ " saved");
     }

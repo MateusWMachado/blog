@@ -35,7 +35,7 @@ public class BlogController {
         return blogService.getTopicByID(id);
     }
 
-    @PostMapping("/post")
+    @PostMapping
     @CacheEvict(value = "listTopics", allEntries = true)
     public ResponseEntity<String> save(@Valid @RequestBody Topic topic, UriComponentsBuilder uriBuilder){
         return blogService.saveTopic(topic, uriBuilder);

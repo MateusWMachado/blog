@@ -1,3 +1,4 @@
+/*
 package com.mateuswmachado.blog.configuration;
 
 import org.springframework.context.annotation.Bean;
@@ -30,7 +31,7 @@ public class Security extends WebSecurityConfigurerAdapter {
     protected void configure(HttpSecurity http) throws Exception {
         http.csrf().disable().authorizeRequests()
                 .antMatchers("/v1").permitAll()
-                .anyRequest().authenticated()
+                .anyRequest().hasRole("ADMIN")
                 .and().formLogin().permitAll()
                 .and().logout().logoutRequestMatcher(new AntPathRequestMatcher("/logout"));
         //super.configure(http);
@@ -41,3 +42,4 @@ public class Security extends WebSecurityConfigurerAdapter {
         return new BCryptPasswordEncoder();
     }
 }
+*/
