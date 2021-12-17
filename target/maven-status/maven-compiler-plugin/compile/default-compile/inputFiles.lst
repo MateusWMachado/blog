@@ -5,6 +5,7 @@ C:\Users\mateus.machado\Desktop\Estudo\blog\src\main\java\com\mateuswmachado\blo
 C:\Users\mateus.machado\Desktop\Estudo\blog\src\main\java\com\mateuswmachado\blog\service\BlogService.java
 C:\Users\mateus.machado\Desktop\Estudo\blog\src\main\java\com\mateuswmachado\blog\service\BlogServiceImpl.java
 C:\Users\mateus.machado\Desktop\Estudo\blog\src\main\java\com\mateuswmachado\blog\handler\ResponseDTO.java
+C:\Users\mateus.machado\Desktop\Estudo\blog\src\main\java\com\mateuswmachado\blog\model\enums\Category.java
 C:\Users\mateus.machado\Desktop\Estudo\blog\src\main\java\com\mateuswmachado\blog\kafka\producer\TopicProducer.java
 C:\Users\mateus.machado\Desktop\Estudo\blog\src\main\java\com\mateuswmachado\blog\exception\PersonNotFoundException.java
 C:\Users\mateus.machado\Desktop\Estudo\blog\src\main\java\com\mateuswmachado\blog\controller\BlogController.java

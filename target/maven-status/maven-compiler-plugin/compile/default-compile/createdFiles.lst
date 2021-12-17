@@ -1,4 +1,5 @@
 com\mateuswmachado\blog\kafka\producer\TopicProducer.class
+com\mateuswmachado\blog\model\enums\Category.class
 com\mateuswmachado\blog\controller\BlogController.class
 com\mateuswmachado\blog\handler\TopicHandler.class
 com\mateuswmachado\blog\BlogApplication.class
