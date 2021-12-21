@@ -2,7 +2,10 @@ package com.mateuswmachado.blog.model;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
 import com.mateuswmachado.blog.model.enums.Category;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 import javax.persistence.*;
 import javax.validation.constraints.NotBlank;
@@ -10,6 +13,9 @@ import java.time.LocalDate;
 
 @Entity(name = "Topic")
 @Data
+@AllArgsConstructor
+@NoArgsConstructor
+@Builder
 public class Topic {
 
     @Id

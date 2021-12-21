@@ -6,6 +6,7 @@ import com.mateuswmachado.blog.kafka.producer.TopicProducer;
 import com.mateuswmachado.blog.model.Topic;
 import com.mateuswmachado.blog.repository.BlogRepository;
 import lombok.AllArgsConstructor;
+import lombok.NoArgsConstructor;
 import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
@@ -20,6 +21,7 @@ import java.util.stream.Collectors;
 
 @Service
 @AllArgsConstructor(onConstructor = @__(@Autowired))
+@NoArgsConstructor
 public class BlogServiceImpl implements BlogService{
 
     private BlogRepository repository;
